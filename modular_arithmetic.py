@@ -42,3 +42,7 @@ def rpsls(user_name):
 
     phrase = "Player chooses {}\nComputer chooses {}\n{}".format(user_name, comp_name, announce)
     return phrase
+
+
+if __name__ == "__main__":
+    print(rpsls("rock")) # spock, paper etc.
