@@ -2,6 +2,7 @@ import unittest
 from modular_arithmetic import name_to_number, \
     number_to_name, get_random_number, rpsls
 
+
 class TestGeneral(unittest.TestCase):
     def test_name_to_number(self):
         self.assertEqual(name_to_number("rock"), 0)
@@ -133,7 +134,3 @@ class TestGeneral(unittest.TestCase):
     def test_incorrect_input(self):
         # Incorrect choice.
         self.assertEqual(rpsls("abracadabra"), "Input a correct choice!")
-
-#
-# if __name__ == '__main__':
-#     unittest.main()
